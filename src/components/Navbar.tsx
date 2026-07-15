@@ -22,7 +22,7 @@ const links = [
 ] as const;
 
 const whatsapp =
-  "https://wa.me/553191732070?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta";
+  "https://wa.me/message/LXHVU57LB7XLG1";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);

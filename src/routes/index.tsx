@@ -80,10 +80,10 @@ function Index() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-gold"
             >
-              Psiquiatria & Saúde Mental
+            ATENDIMENTO ESPECIALIZADO EM SAÚDE MENTAL
             </motion.p>
             <BlurText
-              text="Olá! Sou eu, Doutor Weslley Demorais."
+              text="Doutor Weslley Demorais"
               animateBy="words"
               delay={120}
               className="font-display text-4xl font-semibold leading-tight sm:text-6xl"
@@ -94,9 +94,10 @@ function Index() {
               transition={{ delay: 0.9, duration: 0.7 }}
               className="mt-6 max-w-xl text-lg text-cream/85"
             >
-              Terapeuta e professor PhD em Psiquiatria e Saúde Mental. Doutor em neurociência
-              e genética, com formação na UCLA. Consultas on-line e presenciais em Belo
-              Horizonte.
+              Psicoterapeuta e professor PhD em Psiquiatria e Saúde Mental
+Doutor em Neurociência e Genética com formação na Universidade da Califórnia e na Universidade de Paris.
+
+Consultas on-line e presenciais em Belo Horizonte
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 16 }}

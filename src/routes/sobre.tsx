@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Award, Brain, GraduationCap, HeartHandshake, Users } from "lucide-react";
+import { Award, Brain, GraduationCap, HeartHandshake, Instagram, Users } from "lucide-react";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Reveal } from "@/components/animations/Reveal";
 import CountUp from "@/components/animations/CountUp";
@@ -14,7 +14,7 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Doutor em neurociências e genética e PhD em Psiquiatria e Saúde Mental com formação na UCLA. Conheça a trajetória do Dr. Weslley Demorais.",
+          "Doutor em neurociências e genética e PhD em Psiquiatria e Saúde Mental com formação na UCLA e na Universidade de Paris. Conheça a trajetória do Dr. Weslley Demorais.",
       },
       { property: "og:title", content: "Sobre | Dr. Weslley Demorais" },
       {
@@ -60,15 +60,16 @@ function Sobre() {
               Sobre mim
             </p>
             <BlurText
-              text="Doutor em neurociências e genética e PhD em Psiquiatria."
+              text="Doutor em neurociências e genética e PhD em Psiquiatria e Saúde Mental."
               animateBy="words"
               delay={100}
-              className="font-display text-4xl font-semibold leading-tight sm:text-5xl"
+              className="font-display text-4xl font-semibold leading-tight text-balance sm:text-5xl md:text-4xl"
             />
-            <p className="mt-6 text-lg text-muted-foreground">
-              Formação na Universidade da Califórnia em Los Angeles — UCLA. Dedico minha
-              carreira a estudar, atender e ensinar sobre saúde mental, transtornos e
-              distúrbios com base nos protocolos padrão-ouro.
+            <p className="mt-6 text-lg text-muted-foreground text-pretty">
+              Formação na Universidade da Califórnia em Los Angeles — UCLA e na
+              Universidade de Paris. Dedico minha carreira a estudar, atender e ensinar
+              sobre saúde mental, transtornos e distúrbios com base nos protocolos
+              padrão-ouro.
             </p>
             <div className="mt-6 flex items-center gap-3 rounded-lg border border-gold/40 bg-card p-4">
               <Award className="h-6 w-6 shrink-0 text-gold" />
@@ -76,6 +77,15 @@ function Sobre() {
                 Formação internacional e atuação clínica, acadêmica e empresarial.
               </p>
             </div>
+            <a
+              href="https://www.instagram.com/weslley_demorais/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gold transition-colors hover:text-gold/80"
+            >
+              <Instagram className="h-4 w-4" />
+              Siga no Instagram
+            </a>
           </div>
           <Reveal className="overflow-hidden rounded-2xl border border-border/60 shadow-elegant">
             <img src={heroAsset.url} alt="Dr. Weslley Demorais" className="w-full object-cover" />
@@ -105,8 +115,8 @@ function Sobre() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
           <Reveal>
             <p className="font-display text-3xl font-medium leading-snug sm:text-4xl text-gray-900">
-              “Em minha vida luto pela excelência e para honrar a Deus, que não se deixou
-              vencer em generosidade.”
+              "Em minha vida luto pela excelência e para honrar a Deus, que não se deixou
+              vencer em generosidade."
             </p>
           </Reveal>
           <div className="mt-12 grid gap-8 sm:grid-cols-2">

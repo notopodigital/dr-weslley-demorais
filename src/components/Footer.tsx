@@ -41,7 +41,9 @@ export function Footer() {
               <MapPin className="h-4 w-4 text-gold" /> Belo Horizonte, MG
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="h-4 w-4 text-gold" /> contato@weslleydemorais.com
+              <Mail className="h-4 w-4 text-gold" /> consultoriodrweslleydemorais@gmail.com
+
+
             </li>
             <li className="flex items-center gap-2">
               <Instagram className="h-4 w-4 text-gold" /> @weslley_demorais
