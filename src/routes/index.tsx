@@ -106,9 +106,15 @@ Consultas on-line e presenciais em Belo Horizonte
               className="mt-8 flex flex-wrap gap-4"
             >
               <Button asChild size="lg">
-                <Link to="/contato">
-                  Agendar consulta <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
+                <a
+  href="https://wa.me/message/LXHVU57LB7XLG1"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center"
+>
+  Agendar consulta
+  <ArrowRight className="ml-1 h-4 w-4" />
+</a>
               </Button>
               <Button asChild size="lg" variant="outline">
                 <Link to="/sobre">Conheça minha história</Link>
